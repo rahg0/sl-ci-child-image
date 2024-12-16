@@ -21,7 +21,6 @@ jobs:
   Scan:
     uses: rahg0/sl-ci-parent-workflow/.github/workflows/blank.yml@main
     with:
-      api_token: ${{ secrets.ORCA_SECURITY_API_TOKEN }}
       project_key: slrk
       image_name: raghuesh/image-scan-demo
       image_tag: 4
