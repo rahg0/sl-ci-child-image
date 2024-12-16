@@ -7,7 +7,15 @@ on:
     branches: [ "main" ]
     
   workflow_dispatch:
-  
+
+permissions: 
+  contents: read
+  checks: write
+  issues: write
+  pull-requests: write
+  security-events: write
+  statuses: write
+
 jobs:
   Scan:
     uses: rahg0/sl-ci-parent-workflow/.github/workflows/blank.yml@main
