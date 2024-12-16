@@ -20,7 +20,8 @@ permissions:
 jobs:
   Scan:
     uses: rahg0/sl-ci-parent-workflow/.github/workflows/blank.yml@main
-    #with:
-    #  project_key: slrk
-    #  path: 
-    #secrets: inherit
+    with:
+      project_key: slrk
+      image_name: raghuesh/image-scan-demo
+      image_tag: 4
+    secrets: inherit
