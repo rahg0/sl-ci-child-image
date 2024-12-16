@@ -1,0 +1,15 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  Scan:
+    uses: rahg0/sl-ci-parent-workflow/.github/workflows/blank.yml@main
+    #with:
+    #  project_key: slrk
+    #  path: 
+    #secrets: inherit
