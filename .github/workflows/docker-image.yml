@@ -22,7 +22,7 @@ jobs:
     uses: rahg0/sl-ci-parent-workflow/.github/workflows/blank.yml@main
     with:
       project_key: slrk
-      image_name: raghuesh/gh-actions
+      image_name: raghuesh/vuln-app
       image_tag: latest
     secrets: inherit
 
