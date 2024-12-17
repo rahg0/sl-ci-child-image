@@ -16,7 +16,6 @@ permissions:
   security-events: write
   statuses: write
 
-
 jobs:
   Scan:
     uses: rahg0/sl-ci-parent-workflow/.github/workflows/blank.yml@main
